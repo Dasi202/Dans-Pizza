@@ -1,0 +1,103 @@
+body{
+    font-family: 'Cabin Sketch';
+    background-color: bisque;
+    color: rgb(255, 255, 255, 0.9);
+    height: 100%;
+    Overflow-y:scroll;
+    overflow-x: hidden;
+}
+#video {
+    width: 100%;
+    /* overflow: hidden; */
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    height: 100%;
+  }
+  video {
+    position: fixed;
+    height: 100%;
+    z-index: -2;
+    opacity: 60%;
+  }
+  .bg-overlay {
+	padding: 280px 0 220px;
+  }
+  .nav-bar {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-top: 18px;
+}
+
+.website-logo {
+    display: inline-block;
+    font-weight: 900;
+}
+
+.nav-bar-links {
+    font-size: 30px;
+}
+
+.nav-bar-links a {
+    padding-left: 20px;
+    display: inline-block;
+    list-style: none; 
+    text-decoration: none;
+    color: white;
+    transition: opacity .125s linear;
+}
+.nav-bar-links a:visited {
+    color: inherit;
+    text-decoration: none;
+    color: green;
+}
+.navbar-brand {
+	font-family: 'Cabin Sketch';
+	color: green;
+	font-size: 26px;
+}
+.navbar-brand:hover {
+	color: #ccc;
+}
+/* .mynav li a {
+	font-size: 20px;
+    font-weight: 400;
+    float: right;
+} */
+.nav > li > a:focus, .nav > li > a {
+	color: #E1DBDB;
+}
+
+.navbar-nav > li > a {
+	padding-top: 15px;
+	padding-bottom: 13px;
+}
+.banner{
+    text-align: center;
+}
+.banner-text h2 {
+	font-size: 50px;
+}
+.banner-text h2 span {
+	color: aquamarine;
+}
+.banner-text p {
+	font-size: 15px;
+}
+.banner-button {
+	border: rgba(204, 204, 204, 0.18) 1px solid;
+	padding: 12px 25px;
+	color:chartreuse;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 25px 25px 25px 25px;
+	font-size: 20px;
+	margin-top: 50px;
+}
+.banner-button:hover {
+	background-color: #ccc;
+	text-decoration: none;
+	color: #000;
+}
