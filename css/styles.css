@@ -1,11 +1,14 @@
 body{
     font-family: 'Cabin Sketch';
-    background-color:lightblue
+    background-color:lightblue;
     color: rgb(255, 255, 255, 0.9);
     height: 100%;
     Overflow-y:scroll;
     overflow-x: hidden;
     opacity: 100px;
+}
+h1{
+    color: coral;
 }
 #video {
     width: 100%;
