@@ -154,3 +154,6 @@ select{
 #infor{
     text-align: center;
 }
+h3{
+    border-bottom: 2px solid darkgreen;
+}
