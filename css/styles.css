@@ -1,6 +1,6 @@
 body{
     font-family: 'Cabin Sketch';
-    background-color:lightblue;
+    background-color:aquamarine;
     color: rgb(255, 255, 255, 0.9);
     height: 100%;
     Overflow-y:scroll;
@@ -55,11 +55,11 @@ h1{
 .nav-bar-links a:visited {
     color: inherit;
     text-decoration: none;
-    color: green;
+    color:darkgreen;
 }
 .navbar-brand {
 	font-family: 'Cabin Sketch';
-	color: green;
+	color: darkgreen;
 	font-size: 26px;
 }
 .navbar-brand:hover {
@@ -108,7 +108,7 @@ h1{
 }
 .about h3 {
 	margin-top: 0px;
-	border-bottom: 2px solid green;
+	border-bottom: 2px solid darkgreen;
 	display: inline-block;
 	line-height: 35px;
 }
@@ -118,4 +118,19 @@ h1{
     padding: 20%;
     text-align: center;
 }
-
+.menu{
+    width:100%;
+    text-align: center;
+    font-family: 'Cabin Sketch';
+}
+.menu h3 {
+	margin-top: 0px;
+	margin-bottom: 50px;
+	border-bottom: 2px solid darkgreen;
+	display: inline-block;
+	line-height: 35px;
+}
+select{
+    cursor: pointer;
+    user-select: none;
+}
