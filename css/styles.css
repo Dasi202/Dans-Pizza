@@ -114,4 +114,8 @@ h1{
 }
 .about-text p {
     font-size: 25px;
+}section{
+    padding: 20%;
+    text-align: center;
 }
+
