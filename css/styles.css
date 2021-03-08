@@ -1,10 +1,11 @@
 body{
     font-family: 'Cabin Sketch';
-    background-color: bisque;
+    background-color:lightblue
     color: rgb(255, 255, 255, 0.9);
     height: 100%;
     Overflow-y:scroll;
     overflow-x: hidden;
+    opacity: 100px;
 }
 #video {
     width: 100%;
@@ -66,9 +67,6 @@ body{
     font-weight: 400;
     float: right;
 } */
-.nav > li > a:focus, .nav > li > a {
-	color: #E1DBDB;
-}
 
 .navbar-nav > li > a {
 	padding-top: 15px;
@@ -100,4 +98,17 @@ body{
 	background-color: #ccc;
 	text-decoration: none;
 	color: #000;
+}
+.about {
+    width: 100%;
+    font-family: 'Cabin Sketch';
+}
+.about h3 {
+	margin-top: 0px;
+	border-bottom: 2px solid green;
+	display: inline-block;
+	line-height: 35px;
+}
+.about-text p {
+    font-size: 25px;
 }
